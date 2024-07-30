@@ -1,0 +1,63 @@
+# .gitignore
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build output
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.backup
+
+# Cache directories
+.cache/
+.npm/
+
+# Optional: Uncomment if you're using Sass
+# .sass-cache/
+# *.css.map
+# *.sass.map
+# *.scss.map
+
+# Optional: Uncomment if you're using TypeScript
+# *.tsbuildinfo
+
+# Optional: Uncomment if you're using Yarn
+# yarn.lock
+
+# Optional: Uncomment if you're using npm
+# package-lock.json
+
+# Specific to your project (adjust as needed)
+# images/
+# fonts/
